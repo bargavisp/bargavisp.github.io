@@ -1,294 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bargavi Srinivas | Instructional Designer Portfolio</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Bargavi Srinivas | Instructional Design Portfolio</title>
 
-  <style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      scroll-behavior:smooth;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    body{
-      font-family:'Poppins',sans-serif;
-      background:#0f172a;
-      color:white;
-      line-height:1.6;
-    }
+<style>
 
-    nav{
-      position:fixed;
-      width:100%;
-      top:0;
-      z-index:1000;
-      background:rgba(15,23,42,0.95);
-      backdrop-filter:blur(10px);
-      padding:20px 8%;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      border-bottom:1px solid rgba(255,255,255,0.08);
-    }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
 
-    nav h1{
-      color:#38bdf8;
-      font-size:1.2rem;
-    }
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f172a;
+    color:white;
+    line-height:1.7;
+}
 
-    nav ul{
-      list-style:none;
-      display:flex;
-      gap:30px;
-    }
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(15,23,42,0.95);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
 
-    nav a{
-      text-decoration:none;
-      color:white;
-      transition:0.3s;
-    }
+nav h1{
+    color:#38bdf8;
+    font-size:1.2rem;
+}
 
-    nav a:hover{
-      color:#38bdf8;
-    }
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
 
-    section{
-      padding:100px 8%;
-    }
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
 
-    .hero{
-      min-height:100vh;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:40px;
-    }
+nav a:hover{
+    color:#38bdf8;
+}
 
-    .hero-text{
-      max-width:700px;
-    }
+section{
+    padding:100px 8%;
+}
 
-    .hero h2{
-      font-size:4rem;
-      line-height:1.1;
-      margin-bottom:20px;
-    }
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+}
 
-    .hero span{
-      color:#38bdf8;
-    }
+.hero-text{
+    max-width:700px;
+}
 
-    .hero p{
-      color:#cbd5e1;
-      margin-bottom:30px;
-      font-size:1.1rem;
-    }
+.hero h2{
+    font-size:4rem;
+    line-height:1.1;
+    margin-bottom:20px;
+}
 
-    .btn-group{
-      display:flex;
-      gap:20px;
-      flex-wrap:wrap;
-    }
+.hero span{
+    color:#38bdf8;
+}
 
-    .btn{
-      padding:14px 28px;
-      border-radius:12px;
-      text-decoration:none;
-      font-weight:600;
-      transition:0.3s;
-    }
+.hero p{
+    color:#cbd5e1;
+    font-size:1.1rem;
+    margin-bottom:30px;
+}
 
-    .primary-btn{
-      background:#38bdf8;
-      color:#0f172a;
-    }
+.btn-group{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
 
-    .secondary-btn{
-      border:1px solid #38bdf8;
-      color:#38bdf8;
-    }
+.btn{
+    padding:14px 28px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
 
-    .secondary-btn:hover{
-      background:#38bdf8;
-      color:#0f172a;
-    }
+.primary-btn{
+    background:#38bdf8;
+    color:#0f172a;
+}
 
-    .hero-card{
-      background:#1e293b;
-      padding:30px;
-      border-radius:24px;
-      width:350px;
-    }
+.secondary-btn{
+    border:1px solid #38bdf8;
+    color:#38bdf8;
+}
 
-    .hero-card h3{
-      color:#38bdf8;
-      margin-bottom:15px;
-    }
+.secondary-btn:hover{
+    background:#38bdf8;
+    color:#0f172a;
+}
 
-    .hero-card li{
-      margin-bottom:10px;
-      color:#cbd5e1;
-      list-style:none;
-    }
+.hero-card{
+    background:#1e293b;
+    padding:35px;
+    border-radius:24px;
+    width:350px;
+    border:1px solid rgba(255,255,255,0.08);
+}
 
-    .section-title{
-      color:#38bdf8;
-      font-size:2.5rem;
-      margin-bottom:20px;
-    }
+.hero-card h3{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
 
-    .section-subtitle{
-      color:#cbd5e1;
-      margin-bottom:50px;
-      max-width:700px;
-    }
+.hero-card li{
+    list-style:none;
+    margin-bottom:15px;
+    color:#cbd5e1;
+}
 
-    .skills-grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-      gap:25px;
-    }
+.section-title{
+    font-size:2.7rem;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
 
-    .skill-card{
-      background:#1e293b;
-      padding:25px;
-      border-radius:20px;
-    }
+.section-subtitle{
+    color:#cbd5e1;
+    margin-bottom:50px;
+    max-width:800px;
+}
 
-    .skill-card h3{
-      color:#38bdf8;
-      margin-bottom:15px;
-    }
+.about-box{
+    background:#1e293b;
+    padding:40px;
+    border-radius:24px;
+    border:1px solid rgba(255,255,255,0.05);
+}
 
-    .projects-grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-      gap:30px;
-    }
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
 
-    .project-card{
-      background:#1e293b;
-      border-radius:20px;
-      overflow:hidden;
-    }
+.skill-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:22px;
+    border:1px solid rgba(255,255,255,0.05);
+}
 
-    .project-image{
-      height:220px;
-      background-size:cover;
-      background-position:center;
-    }
+.skill-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
 
-    .project-content{
-      padding:25px;
-    }
+.tools-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
 
-    .project-content h3{
-      color:#38bdf8;
-      margin-bottom:10px;
-    }
+.tool-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:22px;
+    text-align:center;
+    font-weight:600;
+    border:1px solid rgba(255,255,255,0.05);
+    transition:0.3s;
+}
 
-    .project-content p{
-      color:#cbd5e1;
-      margin-bottom:20px;
-    }
+.tool-card:hover{
+    transform:translateY(-5px);
+}
 
-    .tags{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      margin-bottom:20px;
-    }
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
 
-    .tag{
-      background:rgba(56,189,248,0.15);
-      color:#38bdf8;
-      padding:6px 12px;
-      border-radius:999px;
-      font-size:0.8rem;
-    }
+.project-card{
+    background:#1e293b;
+    border-radius:24px;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,0.05);
+    transition:0.3s;
+}
 
-    .project-links{
-      display:flex;
-      gap:15px;
-    }
+.project-card:hover{
+    transform:translateY(-8px);
+}
 
-    .project-links a{
-      text-decoration:none;
-      color:white;
-      background:#0f172a;
-      padding:10px 16px;
-      border-radius:10px;
-    }
+.project-image{
+    height:220px;
+    background-size:cover;
+    background-position:center;
+}
 
-    .process{
-      display:flex;
-      gap:20px;
-      flex-wrap:wrap;
-    }
+.project-content{
+    padding:30px;
+}
 
-    .process-step{
-      flex:1;
-      min-width:180px;
-      background:#1e293b;
-      padding:25px;
-      border-radius:18px;
-      text-align:center;
-    }
+.project-content h3{
+    color:#38bdf8;
+    margin-bottom:12px;
+}
 
-    .process-step h4{
-      color:#38bdf8;
-      margin-bottom:10px;
-    }
+.project-content p{
+    color:#cbd5e1;
+    margin-bottom:20px;
+}
 
-    .contact{
-      text-align:center;
-    }
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:20px;
+}
 
-    .contact-links{
-      margin-top:30px;
-      display:flex;
-      justify-content:center;
-      gap:20px;
-      flex-wrap:wrap;
-    }
+.tag{
+    background:rgba(56,189,248,0.15);
+    color:#38bdf8;
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:0.8rem;
+}
 
-    .contact-links a{
-      text-decoration:none;
-      color:white;
-      border:1px solid #38bdf8;
-      padding:14px 24px;
-      border-radius:12px;
-    }
+.project-links a{
+    text-decoration:none;
+    background:#0f172a;
+    color:white;
+    padding:12px 18px;
+    border-radius:10px;
+    display:inline-block;
+}
 
-    footer{
-      text-align:center;
-      padding:30px;
-      color:#94a3b8;
-    }
+.process{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
 
-    @media(max-width:900px){
+.process-step{
+    flex:1;
+    min-width:200px;
+    background:#1e293b;
+    padding:30px;
+    border-radius:22px;
+    text-align:center;
+}
 
-      .hero{
-        flex-direction:column;
-        text-align:center;
-      }
+.process-step h4{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
 
-      .hero h2{
-        font-size:2.8rem;
-      }
+.contact{
+    text-align:center;
+}
 
-    }
+.contact-links{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
 
-  </style>
+.contact-links a{
+    text-decoration:none;
+    color:white;
+    border:1px solid #38bdf8;
+    padding:14px 24px;
+    border-radius:12px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#94a3b8;
+}
+
+@media(max-width:900px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:2.8rem;
+}
+
+}
+
+</style>
 
 </head>
 
@@ -296,248 +330,348 @@
 
 <nav>
 
-  <h1>Bargavi Srinivas</h1>
+<h1>Bargavi Srinivas</h1>
 
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 
 </nav>
 
 <section class="hero">
 
-  <div class="hero-text">
+<div class="hero-text">
 
-    <h2>
-      Instructional Designer &
-      <span>eLearning Developer</span>
-    </h2>
+<h2>
+Designing <span>Interactive</span><br>
+Learning Experiences
+</h2>
 
-    <p>
-      Designing engaging K–12 learning experiences through interactive modules,
-      multimedia storytelling, and LMS-ready digital learning solutions.
-    </p>
+<p>
+Instructional Designer and eLearning Developer creating engaging digital learning experiences through Storyline modules, multimedia storytelling, and learner-focused interactions.
+</p>
 
-    <div class="btn-group">
+<div class="btn-group">
 
-      <a href="#projects" class="btn primary-btn">
-        View Projects
-      </a>
+<a href="#projects" class="btn primary-btn">
+View Projects
+</a>
 
-      <a href="Bargavi_Resume_ID.pdf"
-         class="btn secondary-btn"
-         target="_blank">
-         Download Resume
-      </a>
+<a href="Bargavi_CV_K12.pdf"
+target="_blank"
+class="btn secondary-btn">
+Download Resume
+</a>
 
-    </div>
+</div>
 
-  </div>
+</div>
 
-  <div class="hero-card">
+<div class="hero-card">
 
-    <h3>Core Expertise</h3>
+<h3>Core Expertise</h3>
 
-    <ul>
-      <li>✔ Interactive eLearning Design</li>
-      <li>✔ K–12 Content Development</li>
-      <li>✔ Storyboarding & Media Planning</li>
-      <li>✔ SCORM & xAPI Workflows</li>
-      <li>✔ LMS Testing & Publishing</li>
-    </ul>
+<ul>
+<li>✔ Interactive eLearning Design</li>
+<li>✔ K–12 Content Development</li>
+<li>✔ Storyboarding & Media Planning</li>
+<li>✔ SCORM & xAPI Workflows</li>
+<li>✔ LMS Testing & Publishing</li>
+</ul>
 
-  </div>
+</div>
 
 </section>
 
 <section id="about">
 
-  <h2 class="section-title">About Me</h2>
+<h2 class="section-title">
+About Me
+</h2>
 
-  <p class="section-subtitle">
+<p class="section-subtitle">
+Instructional Designer and eLearning professional focused on creating engaging learner-centered digital learning experiences.
+</p>
 
-    Instructional Design and LMS professional with experience in K–12 curriculum coordination,
-    interactive eLearning development, Storyline 360 modules, and learner-centered digital experiences.
+<div class="about-box">
 
-  </p>
+<p>
+
+I am an Instructional Designer and eLearning professional with experience in creating learner-centered digital learning experiences for K–12 education and training environments.
+
+<br><br>
+
+My background includes instructional design, LMS administration, curriculum coordination, and interactive eLearning development using tools such as Articulate Storyline 360 and Rise 360.
+
+<br><br>
+
+I enjoy transforming learning content into engaging digital experiences through storytelling, interaction design, multimedia integration, and structured learning flows.
+
+<br><br>
+
+I have experience working with SCORM-based learning modules, LMS testing and deployment, learner engagement strategies, and collaborative content development with subject matter experts.
+
+<br><br>
+
+I am particularly interested in interactive learning design, microlearning experiences, scenario-based learning, and creating impactful educational content that combines creativity with instructional strategy.
+
+</p>
+
+</div>
 
 </section>
 
 <section id="skills">
 
-  <h2 class="section-title">Skills & Tools</h2>
+<h2 class="section-title">
+Skills & Expertise
+</h2>
 
-  <div class="skills-grid">
+<div class="skills-grid">
 
-    <div class="skill-card">
-      <h3>eLearning Tools</h3>
-      <p>
-        Articulate Storyline 360<br>
-        Rise 360<br>
-        Adobe Captivate
-      </p>
-    </div>
+<div class="skill-card">
+<h3>Instructional Design</h3>
+<p>
+Storyboarding<br>
+Learning Design<br>
+Knowledge Checks<br>
+Scenario-Based Learning
+</p>
+</div>
 
-    <div class="skill-card">
-      <h3>Instructional Design</h3>
-      <p>
-        Storyboarding<br>
-        Interaction Design<br>
-        Learning Flow Planning
-      </p>
-    </div>
+<div class="skill-card">
+<h3>eLearning Development</h3>
+<p>
+Interactive Modules<br>
+SCORM Publishing<br>
+xAPI Basics<br>
+LMS Deployment
+</p>
+</div>
 
-    <div class="skill-card">
-      <h3>LMS & Standards</h3>
-      <p>
-        SCORM<br>
-        xAPI<br>
-        LMS Testing
-      </p>
-    </div>
+<div class="skill-card">
+<h3>K–12 Learning</h3>
+<p>
+Curriculum Support<br>
+Learner Engagement<br>
+Activity Design<br>
+Digital Learning
+</p>
+</div>
 
-    <div class="skill-card">
-      <h3>Content Development</h3>
-      <p>
-        Script Writing<br>
-        Content Review<br>
-        K–12 Learning Content
-      </p>
-    </div>
+<div class="skill-card">
+<h3>Multimedia</h3>
+<p>
+Training Videos<br>
+Script Writing<br>
+Visual Learning Design<br>
+Interactive Storytelling
+</p>
+</div>
 
-  </div>
+</div>
+
+</section>
+
+<section id="tools">
+
+<h2 class="section-title">
+Tools & Platforms
+</h2>
+
+<p class="section-subtitle">
+Tools used for instructional design, multimedia creation, and interactive learning development.
+</p>
+
+<div class="tools-grid">
+
+<div class="tool-card">
+🎯<br><br>
+Storyline 360
+</div>
+
+<div class="tool-card">
+📚<br><br>
+Rise 360
+</div>
+
+<div class="tool-card">
+🎨<br><br>
+Adobe Express
+</div>
+
+<div class="tool-card">
+✨<br><br>
+Canva
+</div>
+
+<div class="tool-card">
+🎥<br><br>
+Camtasia
+</div>
+
+<div class="tool-card">
+🤖<br><br>
+Synthesia
+</div>
+
+<div class="tool-card">
+🧠<br><br>
+ChatGPT
+</div>
+
+</div>
 
 </section>
 
 <section id="projects">
 
-  <h2 class="section-title">Featured Projects</h2>
+<h2 class="section-title">
+Featured Projects
+</h2>
 
-  <div class="projects-grid">
+<p class="section-subtitle">
+Interactive learning experiences and training content developed for engaging digital learning.
+</p>
 
-    <div class="project-card">
+<div class="projects-grid">
 
-      <div class="project-image"
-      style="background-image:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop');">
-      </div>
+<div class="project-card">
 
-      <div class="project-content">
+<div class="project-image"
+style="background-image:url('https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop')">
+</div>
 
-        <h3>Story-Based Interactive Learning Module</h3>
+<div class="project-content">
 
-        <p>
-          Interactive Storyline 360 module designed to engage learners
-          through storytelling and interactive learning activities.
-        </p>
+<h3>
+Story-Based Interactive Learning Module
+</h3>
 
-        <div class="tags">
-          <span class="tag">Storyline 360</span>
-          <span class="tag">SCORM</span>
-          <span class="tag">Interactive Learning</span>
-        </div>
+<p>
+Interactive Storyline module designed using storytelling and learner engagement techniques to create meaningful learning experiences.
+</p>
 
-        <div class="project-links">
+<div class="tags">
+<span class="tag">Storyline 360</span>
+<span class="tag">SCORM</span>
+<span class="tag">Interactive Learning</span>
+</div>
 
-          <a href="https://app.cloud.scorm.com/sc/InvitationConfirmEmail?publicInvitationId=7211a08c-a998-421d-9ee7-919bdfd6bd64"
-             target="_blank">
-             Launch Demo
-          </a>
+<div class="project-links">
 
-        </div>
+<a href="https://app.cloud.scorm.com/sc/InvitationConfirmEmail?publicInvitationId=7211a08c-a998-421d-9ee7-919bdfd6bd64"
+target="_blank">
+Launch Demo
+</a>
 
-      </div>
+</div>
 
-    </div>
+</div>
 
-    <div class="project-card">
+</div>
 
-      <div class="project-image"
-      style="background-image:url('https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop');">
-      </div>
+<div class="project-card">
 
-      <div class="project-content">
+<div class="project-image"
+style="background-image:url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop')">
+</div>
 
-        <h3>Fire Emergency Safety Training Video</h3>
+<div class="project-content">
 
-        <p>
-          Short fire emergency awareness training video explaining safe fire extinguisher handling and emergency response techniques.
-        </p>
+<h3>
+Fire Emergency Safety Training Video
+</h3>
 
-        <div class="tags">
-          <span class="tag">Safety Training</span>
-          <span class="tag">Training Video</span>
-        </div>
+<p>
+Short emergency response training video explaining safe fire extinguisher handling and emergency response awareness.
+</p>
 
-      </div>
+<div class="tags">
+<span class="tag">Safety Training</span>
+<span class="tag">Training Video</span>
+</div>
 
-    </div>
+</div>
 
-  </div>
+</div>
+
+</div>
 
 </section>
 
 <section>
 
-  <h2 class="section-title">My Process</h2>
+<h2 class="section-title">
+My Workflow
+</h2>
 
-  <div class="process">
+<div class="process">
 
-    <div class="process-step">
-      <h4>Research</h4>
-      <p>Analyze learner needs and learning goals.</p>
-    </div>
+<div class="process-step">
+<h4>Research</h4>
+<p>Analyze learner needs and objectives.</p>
+</div>
 
-    <div class="process-step">
-      <h4>Storyboard</h4>
-      <p>Create content structure and interaction flow.</p>
-    </div>
+<div class="process-step">
+<h4>Storyboard</h4>
+<p>Create learning structure and interactions.</p>
+</div>
 
-    <div class="process-step">
-      <h4>Develop</h4>
-      <p>Build engaging interactive learning modules.</p>
-    </div>
+<div class="process-step">
+<h4>Develop</h4>
+<p>Build engaging learning experiences.</p>
+</div>
 
-    <div class="process-step">
-      <h4>Publish</h4>
-      <p>Export SCORM/xAPI packages for LMS delivery.</p>
-    </div>
+<div class="process-step">
+<h4>Publish</h4>
+<p>Deploy LMS-ready SCORM modules.</p>
+</div>
 
-  </div>
+</div>
 
 </section>
 
 <section id="contact" class="contact">
 
-  <h2 class="section-title">Contact Me</h2>
+<h2 class="section-title">
+Contact Me
+</h2>
 
-  <div class="contact-links">
+<p class="section-subtitle" style="margin:auto;">
+Open to instructional design and eLearning opportunities.
+</p>
 
-    <a href="mailto:bargavi.spv@gmail.com">
-      Email
-    </a>
+<div class="contact-links">
 
-    <a href="https://www.linkedin.com/in/bargavi-srinivas"
-       target="_blank">
-       LinkedIn
-    </a>
+<a href="mailto:bargavi.spv@gmail.com">
+Email
+</a>
 
-    <a href="https://github.com/bargavisp"
-       target="_blank">
-       GitHub
-    </a>
+<a href="https://www.linkedin.com/in/bargavi-srinivas"
+target="_blank">
+LinkedIn
+</a>
 
-  </div>
+<a href="https://github.com/bargavisp"
+target="_blank">
+GitHub
+</a>
+
+</div>
 
 </section>
 
 <footer>
 
-  © 2026 Bargavi Srinivas | Instructional Design Portfolio
+© 2026 Bargavi Srinivas | Instructional Design Portfolio
 
 </footer>
 
 </body>
+
 </html>
